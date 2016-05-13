@@ -4,7 +4,7 @@
 // @version      0.63
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuestPlus.alpha.user.js
-// @author       Ryalane, Herpes, derivagral, Vibblez
+// @author       Ryalane, Herpes, derivagral, Vibblez, varin
 // @include      http://www.midenquest.com/Game.aspx
 // @include      http://midenquest.com/Game.aspx
 // @grant        GM_xmlhttpRequest
@@ -879,7 +879,7 @@ _Chat.NextTab = function () {
     var CurrentTab = CurrentTabID[CurrentTabID.length -1];
     var NextTab;
 
-    if (CurrentTab < 4) {
+    if (CurrentTab < 5) {
       NextTab = +CurrentTab + 1;
     } else {
       NextTab = 1;
